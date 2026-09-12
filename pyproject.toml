@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repopilot"
+version = "0.1.0"
+description = "CLI tools for developer workflows — setup, env, clean, logs."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [
+    { name = "Team RepoPilot" },
+]
+keywords = ["git", "cli", "developer-tools", "environment", "logs", "setup", "cleanup"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+
+[project.scripts]
+repopilot = "repopilot.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yashtripathi1517/Terminal-Velocity-CLI"
+
+[tool.setuptools.packages.find]
+include = ["repopilot*"]
