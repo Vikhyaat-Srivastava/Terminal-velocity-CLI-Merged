@@ -1,0 +1,8 @@
+Project Setup Instructions:
+
+Step 1: Make sure Python 3.10+ is installed.
+Step 2: Run the following pip command to install all required packages:
+
+pip install -r requirements.txt
+
+Step 3: Start the server using python main.py.

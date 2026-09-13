@@ -1,0 +1,5 @@
+Building from Source:
+
+To compile and build this Rust project on your local environment:
+
+cargo build --release

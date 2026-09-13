@@ -1,0 +1,3 @@
+This is just a regular text file.
+It has some sentences in it.
+Nothing here looks like a log entry.
